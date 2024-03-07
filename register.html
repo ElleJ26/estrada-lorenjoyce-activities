@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <link rel="stylesheet" href="css/style1.css">
+    <script src ="js/register.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1>Register</h1>
+        <br>
+        <p id ="error"></p>
+        <br>
+        <label class="labelStyle">Username:</label>
+        <input type="text" id="username" placeholder="Username">
+        <br>
+        <br>
+        <label class="labelStyle">Name:</label>
+        <input type="text" id="name" placeholder="Name">
+        <br>
+        <br>
+        <label class="labelStyle">Gender:</label>
+        <select name="Gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <br>
+        <br>
+        <label class="labelStyle">Password:</label>
+        <input type="password" id="password" placeholder="Password">
+        <br>
+        <br>
+        <button type="button" class="buttonStyle" onclick="register()">Register</button>
+        <br>
+        <br>
+        <a class="register" href="login.html" >Already Registered?</a>
+        <br>
+        <br>
+    </center>
+</body>
+
+</html>
